@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+
+
+@font-face{
+	font-family: tesla;
+	src: url("TESLA.ttf");
+}
+*{
+	margin: 0px 0px 0px 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.above_header{
+	border: 1px solid white;
+	text-align: center;
+	font-family: tesla;
+	height: 50px;
+	padding-top: 20px;
+}
+header{
+	background-color: black;
+	height: 70px;
+	width: 100%;
+	position: sticky;
+	top: 0px;
+}
+.logo{
+	float: left;
+	padding: 13px 0px 0px 15px;
+
+}
+
+
+.TESLA{
+	font-family: tesla;
+	letter-spacing: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+}
+.active{
+	float: right;
+	color: white;
+	text-decoration: none;
+	padding-right: 20px;			/*Home Menu*/
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid white;
+	border-radius:5px;
+	border-spacing: 10px;
+	margin-top: 15px;
+}
+.nav{
+	float: right;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	text-decoration: none;			/*Sub menu */
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+	border-spacing: 10px;
+	border-collapse: 0px;
+	margin-left: : : 3px;
+	margin-top: 15px;
+	margin-left: 3px;
+}
+.nav:hover{
+	border: 1px solid white;
+	background-color: white;		/*Hovering header menu*/
+	color: black;
+	transition: 0.5s;
+}
+.me{
+	padding: 10px 0px 0px 15px;
+	font-family: 'Exo 2', sans-serif;
+}
+.tesla_font{
+	float: left;
+	padding-top: 30px;
+	padding-left: 350px;
+	letter-spacing: 35px;
+	color: white;
+	font-family: tesla;
+}
+footer{
+	background-color: black;
+	color: white;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+.login-button{
+	float: right;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	text-decoration: none;			/*Login/signup*/
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 20px;
+	border-spacing: 10px;
+	border-collapse: 0px;
+	margin-left: : : 3px;
+	margin-top: 15px;
+	margin-left: 3px;
+	border: 2px solid white;
+}
+.login-button:hover{
+	background-color: white;		/*Login/signup HOVER*/
+	color: black;
+	transition: 0.5s;
+}
+.Naveen:hover{
+	transition: .8s;
+	transform: scale(1.5);
+}
+
+
+.cover{
+	height: 1000px;
+	background-image: url("Tesla_image/roadster.jpg");
+	background-size: 1400px 700px;
+	background-repeat: no-repeat;
+
+}
+
+.order{
+	text-decoration: none;
+	color: black;									/*order roadster*/
+	border: 2px solid black;
+	border-radius: 20px;
+	position: relative;
+	left: 10%;
+	top: 30%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Exo 2', sans-serif;
+	text-decoration: bold;
+	transition: 0.5s;
+}
+
+.order:hover{
+	background-color: black;
+	color: white;
+	transform: scale(1.2);
+}
+
+.slider{
+	width: 70%;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	margin-top: 770px;
+	margin-bottom: 30px;
+	box-shadow: 1px 2px 10px 3px black;
+	animation: slider 20s infinite linear;
+	height: 550px;
+}
+
+ @keyframes slider{
+ 	0%{
+ 		background-image: url("Tesla_image/charging.jpg");
+ 	}
+ 	20%{
+ 		background-image: url("Tesla_image/interior.jpg");
+ 	}
+ 	40%{
+ 		background-image: url("Tesla_image/car.jpg");
+ 	}
+ 	60%{
+ 		background-image: url("Tesla_image/cybertruck.jpg");
+    }
+ 	80%{
+ 		background-image: url("Tesla_image/interior2.jpg");
+ 	}
+
+ }
+

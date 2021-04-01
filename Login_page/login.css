@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+
+
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(tesla_login_back.jpg);
+	background-size: cover;
+	font-family: 'Exo 2', sans-serif;
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+	border-radius: 20px;
+}
+.box h1{
+	margin: 0 0 50px;
+	text-align: center;
+	color: white;
+}
+.inputbox{
+	position: relative;
+}
+.inputbox input{
+	width: 100%;
+	padding: 10px 0; 
+	font-size: 16px;
+	color: white;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	background: transparent;
+}
+.inputbox label{
+	position: absolute;
+	color: white;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 0; 
+	pointer-events: none;
+	transition: 0.5s;
+}
+.inputbox input:focus ~ label,
+.inputbox input:valid ~ label{
+	top: -18px;
+	color: #0097e6;
+	font-size: 12px;
+
+}
+.box input[type="submit"]{
+	background: transparent;
+	outline: none;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 20px;
+	margin-left: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-style: 1px solid white;
+	border-radius: 20px;
+	height: 40px;
+	text-decoration-style: bold;
+ }
+.box input[type="submit"]:hover{
+	background-color: white;
+	color: black;
+}
